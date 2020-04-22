@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E204CEC7-5CE8-4D0B-95D4-898BA9274BB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kidsMathsGame</RootNamespace>
+    <AssemblyName>kidsMathsGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="additionlevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="additionlevel1.Designer.cs">
+      <DependentUpon>additionlevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="additionlevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="additionlevel2.Designer.cs">
+      <DependentUpon>additionlevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="additionlevel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="additionlevel3.Designer.cs">
+      <DependentUpon>additionlevel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="additionlevel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="additionlevel4.Designer.cs">
+      <DependentUpon>additionlevel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ceritficate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ceritficate.Designer.cs">
+      <DependentUpon>ceritficate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devisionlevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devisionlevel2.Designer.cs">
+      <DependentUpon>devisionlevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devisionlevel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devisionlevel3.Designer.cs">
+      <DependentUpon>devisionlevel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devisionlevel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devisionlevel4.Designer.cs">
+      <DependentUpon>devisionlevel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="divisionlevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="divisionlevel1.Designer.cs">
+      <DependentUpon>divisionlevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplication level3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplication level3.Designer.cs">
+      <DependentUpon>multiplication level3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplicationlevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplicationlevel1.Designer.cs">
+      <DependentUpon>multiplicationlevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplicationlevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplicationlevel2.Designer.cs">
+      <DependentUpon>multiplicationlevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplicationlevel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplicationlevel4.Designer.cs">
+      <DependentUpon>multiplicationlevel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="subtractionlevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subtractionlevel1.Designer.cs">
+      <DependentUpon>subtractionlevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subtractionlevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subtractionlevel2.Designer.cs">
+      <DependentUpon>subtractionlevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subtractionlevel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subtractionlevel3.Designer.cs">
+      <DependentUpon>subtractionlevel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subtractionlevel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subtractionlevel4.Designer.cs">
+      <DependentUpon>subtractionlevel4.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="additionlevel1.resx">
+      <DependentUpon>additionlevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="additionlevel2.resx">
+      <DependentUpon>additionlevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="additionlevel3.resx">
+      <DependentUpon>additionlevel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="additionlevel4.resx">
+      <DependentUpon>additionlevel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ceritficate.resx">
+      <DependentUpon>ceritficate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devisionlevel2.resx">
+      <DependentUpon>devisionlevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devisionlevel3.resx">
+      <DependentUpon>devisionlevel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devisionlevel4.resx">
+      <DependentUpon>devisionlevel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="divisionlevel1.resx">
+      <DependentUpon>divisionlevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplication level3.resx">
+      <DependentUpon>multiplication level3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplicationlevel1.resx">
+      <DependentUpon>multiplicationlevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplicationlevel2.resx">
+      <DependentUpon>multiplicationlevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplicationlevel4.resx">
+      <DependentUpon>multiplicationlevel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="subtractionlevel1.resx">
+      <DependentUpon>subtractionlevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subtractionlevel2.resx">
+      <DependentUpon>subtractionlevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subtractionlevel3.resx">
+      <DependentUpon>subtractionlevel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subtractionlevel4.resx">
+      <DependentUpon>subtractionlevel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
